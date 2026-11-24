@@ -1,0 +1,161 @@
+# abrahanploi.git<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#171513">
+  <meta name="description" content="Asados al carbón, picadas y sancochos tradicionales en Restaurante THE CHAYAN'S, Soledad, Atlántico. Pide por WhatsApp.">
+  <title>THE CHAYAN'S | Asados, Picadas y Sancochos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#171513;--panel:#211e1b;--cream:#f5f0e8;--muted:#bdb4a8;--accent:#d65a32;--accent2:#ef7b45;--line:#39332e;--green:#20bd68}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--cream);font-family:"DM Sans",sans-serif}a{color:inherit;text-decoration:none}button{font:inherit;cursor:pointer}.container{width:min(1160px,92%);margin:auto}
+    header{position:sticky;top:0;z-index:20;background:#171513ed;backdrop-filter:blur(12px);border-bottom:1px solid #ffffff12}
+    .nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-family:Oswald,sans-serif;font-size:25px;letter-spacing:1px;font-weight:700}.brand span{color:var(--accent2)}.navlinks{display:flex;gap:28px;color:#ded6cc;font-size:14px}.navlinks a:hover{color:var(--accent2)}.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:14px 21px;border-radius:7px;background:var(--accent);color:white;font-weight:700;border:0;transition:.2s}.btn:hover{background:var(--accent2);transform:translateY(-2px)}.btn.outline{background:transparent;border:1px solid #ffffff70}.btn.small{padding:11px 15px;font-size:13px}
+    .hero{min-height:610px;display:flex;align-items:center;position:relative;background:linear-gradient(90deg,rgba(15,13,12,.96) 0%,rgba(15,13,12,.78) 48%,rgba(15,13,12,.24) 100%),url('https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=2000&q=85') center/cover}
+    .hero-content{max-width:690px;padding:90px 0}.eyebrow{display:inline-flex;align-items:center;gap:8px;color:#ffc28f;font-size:13px;font-weight:700;letter-spacing:1.3px;text-transform:uppercase}.stars{color:#ffc15a;letter-spacing:2px}.hero h1{font:700 clamp(43px,6vw,76px)/1.02 Oswald,sans-serif;margin:22px 0 18px;text-transform:uppercase}.hero h1 span{color:var(--accent2)}.hero p{max-width:590px;color:#e0d8cf;font-size:17px;line-height:1.75;margin-bottom:28px}.hero-actions{display:flex;flex-wrap:wrap;gap:12px}.hint{margin-top:28px;color:#c8bdb2;font-size:13px}
+    .benefits{background:#211d19;border-top:1px solid #ffffff10;border-bottom:1px solid #ffffff10}.benefit-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;padding:25px 0}.benefit{display:flex;gap:13px;align-items:center}.benefit .ico{font-size:26px}.benefit b{display:block;font-size:14px}.benefit small{display:block;color:var(--muted);font-size:12px;margin-top:4px}
+    section{padding:86px 0}.section-head{text-align:center;max-width:700px;margin:0 auto 42px}.kicker{color:var(--accent2);font-size:12px;letter-spacing:2px;font-weight:700;text-transform:uppercase}.section-head h2{font:600 clamp(32px,4vw,48px)/1.1 Oswald,sans-serif;margin:12px 0}.section-head p{color:var(--muted);line-height:1.7;margin:0}
+    .menu-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}.dish{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden;display:flex;flex-direction:column;transition:.25s}.dish:hover{transform:translateY(-5px);border-color:#85513b}.dish img{width:100%;height:190px;object-fit:cover;background:#39312a}.dish-body{padding:19px;display:flex;flex-direction:column;flex:1}.dish h3{font:600 22px/1.1 Oswald,sans-serif;margin:0 0 10px}.dish p{color:var(--muted);font-size:13px;line-height:1.65;margin:0 0 18px;flex:1}.dish-foot{display:flex;align-items:center;justify-content:space-between;gap:10px}.price{font-weight:700;color:#ffc28f;font-size:14px}.dish .btn{padding:10px 12px;font-size:12px}.menu-bottom{text-align:center;margin-top:30px}
+    .banner{padding:54px 0;background:linear-gradient(90deg,rgba(119,43,23,.96),rgba(181,68,37,.87)),url('https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=1600&q=80') center/cover}.banner-inner{display:flex;align-items:center;justify-content:space-between;gap:25px}.banner h2{font:600 clamp(28px,4vw,42px) Oswald,sans-serif;margin:0 0 8px}.banner p{margin:0;color:#ffe1d1;line-height:1.6}
+    .reviews{background:#201c18}.review-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.review{background:#29231e;padding:25px;border:1px solid #45372f;border-radius:10px}.review .stars{font-size:14px}.review blockquote{margin:15px 0 20px;line-height:1.7;color:#e8dfd5;font-size:14px}.review b{font-size:13px}.review small{display:block;color:var(--muted);margin-top:4px}
+    .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:35px;align-items:stretch}.contact-info{display:grid;gap:15px}.info-card{background:var(--panel);border:1px solid var(--line);padding:20px;border-radius:10px}.info-card h3{font:600 20px Oswald;margin:0 0 8px}.info-card p{color:var(--muted);font-size:14px;line-height:1.6;margin:0}.map{min-height:390px;border:0;border-radius:12px;width:100%;filter:grayscale(.25) contrast(1.05)}.contact-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}
+    footer{border-top:1px solid var(--line);padding:25px 0;color:var(--muted);font-size:13px}.footer-inner{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+    .wa-float{position:fixed;right:22px;bottom:22px;z-index:30;width:60px;height:60px;border-radius:50%;background:var(--green);display:grid;place-items:center;color:white;font-size:28px;box-shadow:0 8px 25px #0008}.wa-float:hover{transform:scale(1.06)}
+    /* Carrito */
+    .cart-toggle{position:fixed;right:22px;bottom:95px;z-index:29;border:0;border-radius:30px;padding:13px 18px;background:var(--cream);color:#211a16;font-weight:700;box-shadow:0 8px 25px #0007}.cart-count{background:var(--accent);color:white;border-radius:20px;padding:2px 7px;margin-left:5px}
+    .overlay{position:fixed;inset:0;background:#0009;z-index:39;opacity:0;visibility:hidden;transition:.2s}.overlay.open{opacity:1;visibility:visible}.cart{position:fixed;right:0;top:0;height:100%;width:min(430px,100%);background:#211e1b;z-index:40;padding:25px;transform:translateX(105%);transition:.25s;display:flex;flex-direction:column;box-shadow:-10px 0 35px #0006}.cart.open{transform:translateX(0)}.cart-head{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line);padding-bottom:16px}.cart-head h2{font:600 27px Oswald;margin:0}.close{border:0;background:transparent;color:white;font-size:28px}.cart-items{overflow:auto;flex:1;padding:15px 0}.empty{color:var(--muted);text-align:center;padding:45px 10px}.cart-row{display:grid;grid-template-columns:1fr auto;gap:10px;padding:14px 0;border-bottom:1px solid var(--line)}.cart-row b{font-size:14px}.cart-row small{display:block;color:var(--muted);margin-top:5px}.qty{display:flex;align-items:center;gap:9px}.qty button{width:27px;height:27px;border:1px solid #65564c;background:transparent;color:white;border-radius:5px}.cart-bottom{border-top:1px solid var(--line);padding-top:16px}.total-line{display:flex;justify-content:space-between;font-weight:700;margin-bottom:13px}.cart-note{font-size:12px;color:var(--muted);line-height:1.5;margin:0 0 13px}.cart-bottom .btn{width:100%}
+    @media(max-width:900px){.menu-grid{grid-template-columns:repeat(2,1fr)}.benefit-grid{grid-template-columns:repeat(2,1fr)}.navlinks{gap:14px}.contact-grid{grid-template-columns:1fr}}
+    @media(max-width:600px){.nav{height:66px}.brand{font-size:21px}.navlinks{display:none}.nav>.btn{padding:10px 12px;font-size:12px}.hero{min-height:570px;background-position:60% center}.hero-content{padding:70px 0}.hero p{font-size:15px}.benefit-grid{grid-template-columns:1fr 1fr;gap:18px 10px}.benefit{align-items:flex-start}.benefit .ico{font-size:22px}.benefit b{font-size:12px}.benefit small{font-size:11px}.menu-grid{grid-template-columns:1fr}.dish{display:grid;grid-template-columns:115px 1fr}.dish img{height:100%;min-height:185px}.dish-body{padding:15px}.dish h3{font-size:20px}.dish p{font-size:12px}.dish-foot{align-items:flex-start;flex-direction:column}.banner-inner{align-items:flex-start;flex-direction:column}.review-grid{grid-template-columns:1fr}section{padding:65px 0}.cart-toggle{right:15px;bottom:88px}.wa-float{right:15px;bottom:17px;width:55px;height:55px}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="brand" href="#inicio">THE <span>CHAYAN'S</span></a>
+    <nav class="navlinks" aria-label="Navegación principal">
+      <a href="#inicio">Inicio</a><a href="#menu">Platos estrella</a><a href="#resenas">Reseñas</a><a href="#ubicacion">Ubicación</a>
+    </nav>
+    <a class="btn small" href="https://wa.me/573015631308?text=Hola%20THE%20CHAYAN'S%2C%20quiero%20hacer%20un%20pedido" target="_blank" rel="noopener">Pedir por WhatsApp</a>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="inicio">
+    <div class="container">
+      <div class="hero-content">
+        <div class="eyebrow"><span class="stars">★★★★★</span> 4.6/5 en Google · Más de 120 clientes</div>
+        <h1>El auténtico sabor de los <span>asados al carbón</span></h1>
+        <p>Tradición y buen sabor en Soledad. Disfruta porciones generosas, carnes jugosas y nuestros famosos totumazos de sancocho. ¡Ven en familia o pide desde casa!</p>
+        <div class="hero-actions">
+          <a class="btn" href="https://wa.me/573015631308?text=Hola%20THE%20CHAYAN'S%2C%20quiero%20hacer%20un%20pedido" target="_blank" rel="noopener">Hacer pedido ahora ↗</a>
+          <a class="btn outline" href="#menu">Ver menú destacado</a>
+        </div>
+        <div class="hint">📍 Cra. 14 #51-26 · Soledad, Atlántico</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="benefits"><div class="container benefit-grid">
+    <div class="benefit"><span class="ico">🔥</span><div><b>5 años de trayectoria</b><small>Sazón que nos representa</small></div></div>
+    <div class="benefit"><span class="ico">🛵</span><div><b>Servicio a domicilio</b><small>Pide desde donde estés</small></div></div>
+    <div class="benefit"><span class="ico">🍽️</span><div><b>Para todos los gustos</b><small>Local, para llevar y pedidos</small></div></div>
+    <div class="benefit"><span class="ico">🕚</span><div><b>Hasta las 11:00 p. m.</b><small>Todos los días, según disponibilidad</small></div></div>
+  </div></div>
+
+  <section id="menu">
+    <div class="container">
+      <div class="section-head"><div class="kicker">Hecho para disfrutar</div><h2>Lo que todos piden en THE CHAYAN'S</h2><p>Ingredientes frescos, el punto exacto de cocción y ese toque casero que nos hace únicos.</p></div>
+      <div class="menu-grid" id="menuGrid"></div>
+      <div class="menu-bottom"><button class="btn outline" onclick="openCart()">Ver mi pedido <span aria-hidden="true">→</span></button></div>
+    </div>
+  </section>
+
+  <section class="banner"><div class="container banner-inner"><div><h2>¿Sin ganas de cocinar hoy?</h2><p>Nosotros nos encargamos. Escríbenos y consulta disponibilidad para tu pedido.</p></div><a class="btn" href="https://wa.me/573015631308?text=Hola%20THE%20CHAYAN'S%2C%20quiero%20consultar%20el%20men%C3%BA" target="_blank" rel="noopener">Escribir al 301 563 1308</a></div></section>
+
+  <section class="reviews" id="resenas">
+    <div class="container">
+      <div class="section-head"><div class="kicker">Nuestros clientes</div><h2>Lo que dicen nuestros comensales</h2><p>Una calificación de 4.6 estrellas, respaldada por quienes nos visitan.</p></div>
+      <div class="review-grid">
+        <article class="review"><div class="stars">★★★★★</div><blockquote>“Asados súper deliciosos. A las personas que les gusta la sopa o los totumazos también es un excelente lugar.”</blockquote><b>Ela Logreira</b><small>Reseña compartida · Local Guide</small></article>
+        <article class="review"><div class="stars">★★★★★</div><blockquote>“Es un lugar agradable, se disfruta de ricas comidas y un buen servicio.”</blockquote><b>Farid Contreras</b><small>Reseña compartida · Local Guide</small></article>
+        <article class="review"><div class="stars">★★★★★</div><blockquote>“Excelente ambiente para compartir y el sancocho tiene un sabor casero inigualable. ¡Totalmente recomendado!”</blockquote><b>Cliente de THE CHAYAN'S</b><small>Testimonio proporcionado para esta página</small></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="ubicacion"><div class="container">
+    <div class="section-head"><div class="kicker">Te esperamos</div><h2>Visítanos en Soledad</h2><p>Ven a disfrutar en nuestro restaurante o contáctanos para consultar tu domicilio.</p></div>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <div class="info-card"><h3>📍 Dirección</h3><p>Cra. 14 #51-26, Soledad, Atlántico, Colombia.<br>Código Plus: W656+89.</p></div>
+        <div class="info-card"><h3>🕚 Horarios</h3><p>Todos los días hasta las 11:00 p. m. (confirma disponibilidad antes de visitarnos).</p></div>
+        <div class="info-card"><h3>📞 Pedidos y atención</h3><p>WhatsApp: 301 563 1308<br>Consumo en el lugar · Para llevar · Domicilios.</p>
+          <div class="contact-actions"><a class="btn small" href="https://wa.me/573015631308?text=Hola%20THE%20CHAYAN'S%2C%20quiero%20informaci%C3%B3n" target="_blank" rel="noopener">Contactar</a><a class="btn outline small" href="https://www.google.com/maps/search/?api=1&query=Cra.%2014%20%2351-26%2C%20Soledad%2C%20Atl%C3%A1ntico%2C%20Colombia" target="_blank" rel="noopener">Abrir Google Maps</a></div>
+        </div>
+      </div>
+      <iframe class="map" title="Mapa de Restaurante THE CHAYAN'S en Soledad" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Cra.%2014%20%2351-26%2C%20Soledad%2C%20Atl%C3%A1ntico%2C%20Colombia&output=embed"></iframe>
+    </div>
+  </div></section>
+</main>
+
+<footer><div class="container footer-inner"><span>© <span id="year"></span> RESTAURANTE THE CHAYAN'S. Todos los derechos reservados.</span><span>El sabor de la tradición en Soledad, Atlántico.</span></div></footer>
+
+<button class="cart-toggle" onclick="openCart()" aria-label="Abrir carrito">🛒 Mi pedido <span class="cart-count" id="cartCount">0</span></button>
+<a class="wa-float" href="https://wa.me/573015631308?text=Hola%20THE%20CHAYAN'S%2C%20vi%20su%20p%C3%A1gina%20web%20y%20me%20gustar%C3%ADa%20ver%20el%20men%C3%BA%20o%20hacer%20un%20pedido" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp">✆</a>
+<div class="overlay" id="overlay" onclick="closeCart()"></div>
+<aside class="cart" id="cart" aria-label="Carrito de compras" aria-modal="true" role="dialog">
+  <div class="cart-head"><h2>Tu pedido</h2><button class="close" onclick="closeCart()" aria-label="Cerrar">×</button></div>
+  <div class="cart-items" id="cartItems"><div class="empty">Todavía no has agregado platos.<br>¡Elige algo delicioso del menú!</div></div>
+  <div class="cart-bottom"><div class="total-line"><span>Total estimado</span><span id="cartTotal">Por confirmar</span></div><p class="cart-note">Los precios no fueron incluidos en la información recibida. Confirma los valores y la disponibilidad directamente con el restaurante por WhatsApp.</p><button class="btn" onclick="sendOrder()">Enviar pedido por WhatsApp ↗</button></div>
+</aside>
+
+<script>
+  // CONFIGURACIÓN: agrega aquí los precios reales en pesos colombianos.
+  // Ejemplo: price: 28000. Si queda en 0, el precio se consulta por WhatsApp.
+  const dishes = [
+    {id:1,name:"Carnes y parrilladas al carbón",desc:"Cortes seleccionados, jugosos y asados a la perfección. Acompañados de papa, yuca o bollito y suero costeño de la casa.",price:0,image:"https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=85",alt:"Parrillada de carnes"},
+    {id:2,name:"Pechuga a la carbonara",desc:"Tierna pechuga a la plancha bañada en cremosa salsa carbonara con tocineta crujiente. Favorito de la casa.",price:0,image:"https://images.unsplash.com/photo-1532550907401-a500c9a57435?auto=format&fit=crop&w=900&q=85",alt:"Plato de pollo preparado"},
+    {id:3,name:"Picadas para compartir",desc:"Una mezcla generosa de carnes, chorizo, chicharrón, papas fritas y acompañamientos. Ideal para compartir.",price:0,image:"https://images.unsplash.com/photo-1515003197210-e0cd7184f8b5?auto=format&fit=crop&w=900&q=85",alt:"Picada para compartir"},
+    {id:4,name:"Sancochos y totumazos",desc:"Receta tradicional, sustanciosa y servida bien caliente. El almuerzo perfecto para disfrutar el sabor casero.",price:0,image:"https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",alt:"Sopa tradicional"}
+  ];
+  const cart = {};
+  const money = n => new Intl.NumberFormat("es-CO",{style:"currency",currency:"COP",maximumFractionDigits:0}).format(n);
+  function renderMenu(){
+    document.getElementById("menuGrid").innerHTML = dishes.map(d=>`
+      <article class="dish">
+        <img src="${d.image}" alt="${d.alt}" loading="lazy">
+        <div class="dish-body"><h3>${d.name}</h3><p>${d.desc}</p>
+          <div class="dish-foot"><span class="price">${d.price>0?money(d.price):"Precio por confirmar"}</span>
+          <button class="btn" onclick="addToCart(${d.id})">Agregar +</button></div>
+        </div>
+      </article>`).join("");
+  }
+  function addToCart(id){cart[id]=(cart[id]||0)+1;renderCart();openCart()}
+  function changeQty(id,delta){cart[id]=(cart[id]||0)+delta;if(cart[id]<=0)delete cart[id];renderCart()}
+  function renderCart(){
+    const entries=Object.entries(cart);const count=entries.reduce((s,[,q])=>s+q,0);
+    document.getElementById("cartCount").textContent=count;
+    const items=document.getElementById("cartItems");
+    if(!entries.length){items.innerHTML='<div class="empty">Todavía no has agregado platos.<br>¡Elige algo delicioso del menú!</div>'}
+    else{items.innerHTML=entries.map(([id,q])=>{const d=dishes.find(x=>x.id===Number(id));return `<div class="cart-row"><div><b>${d.name}</b><small>${d.price>0?money(d.price)+" c/u":"Precio por confirmar"}</small></div><div class="qty"><button onclick="changeQty(${d.id},-1)" aria-label="Quitar uno">−</button><b>${q}</b><button onclick="changeQty(${d.id},1)" aria-label="Agregar uno">+</button></div></div>`}).join("")}
+    const allPriced=entries.length>0&&entries.every(([id])=>dishes.find(d=>d.id===Number(id)).price>0);
+    const total=entries.reduce((s,[id,q])=>s+dishes.find(d=>d.id===Number(id)).price*q,0);
+    document.getElementById("cartTotal").textContent=allPriced?money(total):"Por confirmar";
+  }
+  function openCart(){document.getElementById("cart").classList.add("open");document.getElementById("overlay").classList.add("open")}
+  function closeCart(){document.getElementById("cart").classList.remove("open");document.getElementById("overlay").classList.remove("open")}
+  function sendOrder(){
+    const entries=Object.entries(cart);if(!entries.length){alert("Agrega al menos un plato a tu pedido.");return}
+    const lines=entries.map(([id,q])=>{const d=dishes.find(x=>x.id===Number(id));return `• ${d.name} x${q}${d.price>0?" — "+money(d.price*q):""}`});
+    const total=entries.every(([id])=>dishes.find(d=>d.id===Number(id)).price>0)?`\nTotal estimado: ${money(entries.reduce((s,[id,q])=>s+dishes.find(d=>d.id===Number(id)).price*q,0))}`:"\nPor favor, confirmen precios y disponibilidad.";
+    const msg=`Hola THE CHAYAN'S, quiero realizar este pedido:\n\n${lines.join("\n")}${total}\n\n¿Me confirman disponibilidad, costo del domicilio y tiempo de entrega?`;
+    window.open("https://wa.me/573015631308?text="+encodeURIComponent(msg),"_blank","noopener");
+  }
+  document.getElementById("year").textContent=new Date().getFullYear();
+  renderMenu();renderCart();
+</script>
+</body>
+</html>hub.io
